@@ -1,0 +1,159 @@
+div
+{
+	position: fixed;
+	top:0px;
+	left:0px;
+	background-color:black;
+	width:2%;
+	height:100%;
+	border-radius: 0px 15px 15px 0px;
+}
+
+span
+{
+	color: grey;	
+}
+
+h1
+{
+	text-align: left;
+	margin-left: 20px
+}
+
+
+
+body
+{
+    background-image: url("images/escheresque.png"); 
+	background-attachment: scroll;
+	margin-left:20px;
+}
+
+
+h2, p
+{
+	margin:20px;
+}
+
+.accroche
+{
+	border: 1px solid black;
+	color: black;
+	box-shadow: 6px 6px 6px black;
+	width: 32%;
+	margin-left: 20px;
+	text-align: center;
+}
+
+@media all and (max-device-width: 460px)
+{
+    .accroche
+	{
+		border: 1px solid black;
+		color: black;
+		box-shadow: 6px 6px 6px black;
+		width: 80%;
+		top: 300px;
+		margin-left: 20px;
+		text-align: center;
+	}
+}
+
+article
+{
+	display: inline-block;
+	Vertical-align: top;
+	width: 250px;
+	padding: 20px;
+	font-size: moyen;
+}
+
+@media all and (max-device-width: 460px)
+{
+	article, li
+	{
+		display: block;
+		width: 250px;
+		font-size: moyen;
+	}
+}
+
+header
+{
+	height: 255px;
+}
+
+@media all and (max-device-width: 460px)
+{
+	header
+	{
+		height: 450px;
+	}
+}
+
+img
+{
+	position: absolute;
+	right:20px;
+	top: 20px;
+	box-shadow: 6px 6px 6px black;
+    border: 1px solid black;
+	
+}
+
+@media all and (max-device-width: 460px)
+{
+ img
+	{
+		position: absolute;
+		right:80px;
+		top:230px;
+		box-shadow: 6px 6px 6px black;
+		border: 1px solid black;
+	}
+}
+
+
+.centre
+{
+	text-align: left;
+	margin-left: 20px
+}
+
+em
+{
+	font-weight: bold;
+}
+
+@font-face { /* Définition d'une nouvelle police nommée calligraffiti-fontfacekit */
+    font-family: 'calligraffiti-fontfacekit';
+    src: url('calligraffiti-fontfacekit/Calligraffiti-webfont.eot');
+    src: url('calligraffiti-fontfacekit/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('calligraffiti-fontfacekit/Calligraffiti-webfont.woff') format('woff'),
+         url('calligraffiti-fontfacekit/Calligraffiti-webfont.ttf') format('truetype'),
+         url('calligraffiti-fontfacekit/Calligraffiti-webfont.svg#calligraffiti-fontfacekit') format('svg');
+}
+
+h1, .accroche /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'calligraffiti-fontfacekit', Arial, serif;
+}
+
+p, li
+{
+    font-family: Arial, Verdana, sans-serif;
+}
+
+
+p, li
+{
+	font-size: moyen;
+}
+
+
+
+h2, h3
+{
+    color: maroon;
+}
+
